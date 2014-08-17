@@ -43,7 +43,7 @@ The result of the offline process is like this:
 
 2
 
-# of records that share the same hash value
+number of records that share the same hash value
 
 212 846
 
