@@ -43,11 +43,11 @@ The result of the offline process is like this:
 
 2
 
-(# of Records that share the same hash value)
+# of records that share the same hash value
 
 212 846
 
----The ID of Record in the dataset---
+the ID of records in the dataset
 
 If you receive the following error messages:
 
