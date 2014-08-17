@@ -1,6 +1,6 @@
 /*
  * Offline Process of the Approximate Private Record Linkage Protocol
- * Created by Zikai (Alex) Wen on 01/06/2014
+ * Created by Zikai (Alex) Wen on 01/06/2013
  * Copyright (c) 2013 Zikai (Alex) Wen. All rights reserved.
  */
 
