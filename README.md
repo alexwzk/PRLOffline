@@ -55,6 +55,6 @@ Error @ former char input is illegal.
 
 Error @ Invalid inputs in returnQuantumIndex.
 
-50 <<<<<-- check this line's record which contains illegal inputs.
+50 <<<<<-- check this line's record which should contain illegal inputs.
 
 ****/
