@@ -34,7 +34,7 @@ where,
 
 *******
 Outputs:
-The data is stored in the "same-filename".lsh file under the same folder with the original's. You can then parse the lsh file and setup the Online process accordingly.
+The data is stored in the "same-filename".lsh file under the same folder with the original's. You can then parse the lsh file and setup the Online Oblivious Bloom Intersection (https://personal.cis.strath.ac.uk/changyu.dong/PSI/PSI.html) process accordingly.
 
 The result of the offline process is like this:
 0 1d e5 dc 80 f7 ec d0 3c 86 50 97 26 f6 78 32 81 c4 88 fd
