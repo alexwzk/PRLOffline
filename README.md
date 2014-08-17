@@ -24,9 +24,10 @@ Run on Command Line:
 ./PRLOffline -a 10 -b 16 -f dataset1000.dat -c
 
 where,
--a means to set the values of Minhash alpha
 
--b means to set the values of Minhash beta
+-a means to set the value of Minhash alpha
+
+-b means to set the value of Minhash beta
 
 -f means to feed in the input file path
 
