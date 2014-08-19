@@ -24,9 +24,10 @@ Run on Command Line:
 ./PRLOffline -a 10 -b 16 -f dataset1000.dat -c
 
 where,
--a means to set the values of Minhash alpha
 
--b means to set the values of Minhash beta
+-a means to set the value of Minhash alpha
+
+-b means to set the value of Minhash beta
 
 -f means to feed in the input file path
 
@@ -34,15 +35,27 @@ where,
 
 *******
 Outputs:
-The data is stored in the "same-filename".lsh file under the same folder with the original's. You can then parse the lsh file and setup the Online process accordingly.
+The data is stored in the "same-filename".lsh file under the same folder with the original's. You can then parse the lsh file and setup the Online Oblivious Bloom Intersection (https://personal.cis.strath.ac.uk/changyu.dong/PSI/PSI.html) process accordingly.
 
 The result of the offline process is like this:
-0 1d e5 dc 80 f7 ec d0 3c 86 50 97 26 f6 78 32 81 c4 88 fd                        2                                       212 846
----------------------- Hash Digests ---------------------- (# of Records that share the same hash value) ---The ID of Record in the dataset---
+0 1d e5 dc 80 f7 ec d0 3c 86 50 97 26 f6 78 32 81 c4 88 fd
+
+---------------------- Hash Digests ----------------------
+
+2
+
+number of records that share the same hash value
+
+212 846
+
+the ID of records in the dataset
 
 If you receive the following error messages:
+
 Error @ former char input is illegal.
+
 Error @ Invalid inputs in returnQuantumIndex.
-50 <<<<<-- check this line's record which contains illegal inputs.
+
+50 <<<<<-- check this line's record which should contain illegal inputs.
 
 ****/
